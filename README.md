@@ -33,4 +33,4 @@ __NOTE__: ip-api only allows up to 150 requests per minute. If you try to call t
 
 ### License
 
-PluginInfo is licensed under the MIT License. For more information please refer to the LICENSE file.
+Geolocation is licensed under the MIT License. For more information please refer to the LICENSE file.
