@@ -10,7 +10,7 @@ import java.util.Map;
 import java.util.UUID;
 
 public class Geolocation extends PlaceholderExpansion implements Cleanable {
-
+    private final String VERSION = getClass().getPackage().getImplementationVersion();
     private Map<UUID, LocationInfo> cache = new HashMap<>();
 
     @Override
@@ -30,7 +30,7 @@ public class Geolocation extends PlaceholderExpansion implements Cleanable {
 
     @Override
     public String getVersion() {
-        return "1.1";
+        return VERSION;
     }
 
     @Override
