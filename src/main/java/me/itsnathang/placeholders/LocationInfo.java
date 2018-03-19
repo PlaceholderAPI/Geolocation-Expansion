@@ -43,7 +43,10 @@ public class LocationInfo {
 
     public String getData(String key) {
         if (data == null) return "API Down";
-
         return data.containsKey(key) ? data.get(key).toString() : "invalid identifier";
+    }
+
+    public boolean isValid() {
+        return data != null;
     }
 }
